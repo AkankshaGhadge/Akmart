@@ -28,7 +28,7 @@ function App() {
      
       <BrowserRouter>
       <Routes>
-        <Route path='/'element={<Master Rcf={Index}/>}/>
+        <Route path=""element={<Master Rcf={Index}/>}/>
         <Route path='/product-shop/:brand_id'element={<Master Rcf={SubBrand}/>}/>
         <Route path='/product-shop/:cat_id/:sub_id'element={<Master Rcf={SubCatagory}/>}/>
         <Route path='/index'element={<Index/>}/>

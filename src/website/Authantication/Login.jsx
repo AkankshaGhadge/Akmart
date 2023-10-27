@@ -15,7 +15,7 @@ const Login = () => {
    
          if(token !=null){
            
-            navigate('/');
+            navigate("");
          }
          window.scrollTo({
             top:0,
@@ -44,7 +44,7 @@ const Login = () => {
                if(responce.data.token){
                 alert('login succsessfully')
                 settoken(responce.data.user_data ,responce.data.token);
-                navigate ('/');
+                navigate ("");
                }else{
                 notify(responce.data.massage);
                }

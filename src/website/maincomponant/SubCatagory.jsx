@@ -90,7 +90,7 @@ const addToWish = (product_id) => {
           <div className="container" style={{ paddingBottom: "150px", color: "" }}>
           <h2 style={{ color: "white"}}>{category_.category_name}</h2>
             <h4 style={{ color: "white"}} >
-              <Link to="/" style={{ color: "white" }}><i className="ion-ios-home" />Home/</Link>
+              <Link to="" style={{ color: "white" }}><i className="ion-ios-home" />Home/</Link>
              {subcategory_.subcategory_name} 
             </h4>
           </div>

@@ -37,7 +37,7 @@ const Authuser = () => {
     sessionStorage.clear();
     settoken(null);
     setuser(null);
-    Navigate('/')
+    Navigate("")
    }
 
     return {

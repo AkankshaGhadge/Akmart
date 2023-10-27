@@ -40,7 +40,7 @@ const Myorder = () => {
           <h2>Order History</h2>
           <h4 className="text-white">
             <ol className="breadcrumb">
-              <i className="fas fa-home" /> &nbsp;<li className="breadcrumb-item"><a href="/">Home</a></li>
+              <i className="fas fa-home" /> &nbsp;<li className="breadcrumb-item"><a href="">Home</a></li>
               <li aria-current="page"> View Orders</li>
             </ol>
           </h4>

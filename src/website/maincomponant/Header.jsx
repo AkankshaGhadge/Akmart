@@ -174,7 +174,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div className="container">
 
-          <a className="navbar-brand logo" href="/">
+          <a className="navbar-brand logo" href="">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
               aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="oi oi-menu"></span> Menu
@@ -197,7 +197,7 @@ const Header = () => {
           </button>
           <div className="collapse navbar-collapse" id="ftco-nav">
             <ul className="navbar-nav ml-auto">
-              <Link className='text-center' to='/'>Home</Link>
+              <Link className='text-center' to="">Home</Link>
               <li className="nav-item active"><a href="Index.jsx" className="nav-link"></a></li>
 
               <li className="nav-item dropdown">
@@ -246,7 +246,7 @@ const Header = () => {
                 </li>
               </li>
               <li className="navbar-item dropdown-megamenu">
-                <Link to="/" className="nav-item nav-link" onMouseEnter={brandMouseEnter} onMouseLeave={brandMouseLeave}>
+                <Link to="" className="nav-item nav-link" onMouseEnter={brandMouseEnter} onMouseLeave={brandMouseLeave}>
                   <li className='b'><a className='nav-item active' href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brand</a></li>
                 </Link>
 
